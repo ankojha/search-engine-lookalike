@@ -1,0 +1,113 @@
+header{
+    text-align: right;
+    font-size: 13px;
+    font-family: "Arial", sans-serif;
+}
+section{
+    text-align: center;
+    padding-top: 150px;
+    font-size: 13px;
+}
+.profile-pic{
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+}
+.menu-items{
+    color: rgba(0,0,0,0.87);
+    padding: 10px;
+    position: relative;
+    bottom: 25px;
+    text-decoration: none;
+}
+.menu-items:hover{
+    text-decoration: underline;
+}
+#dropdown-menu{
+    padding:10px;
+    position: relative;
+    bottom: 15px;
+}
+#dropdown{
+    display:inline-block;
+}
+#dropdown{
+    cursor:context-menu;
+}
+.menu{
+    position: absolute;
+    right: 80px;
+    width: 285px;
+    padding: 28px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display:none;
+    text-align: center;
+}
+.app-items{
+    width: 50px;
+    height: 50px;
+}
+#app{
+    display: inline-block;
+    width: 84px;
+    padding: 2px;
+}
+#app:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#dropdown:hover .menu{
+    display:block;
+    cursor: pointer;
+}
+.search-box{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;  
+}
+.voicesearch{
+    position:relative;
+    top: 10px;
+    right: 60px;
+    height: 30px;
+}
+.voicesearch:hover{
+    cursor:pointer;
+}
+.search-box:hover{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    outline: none;
+}
+.search-box:focus{
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+    border-color: rgba(223, 225, 229, 0);
+    outline: none;
+}
+#searchbox{
+    padding:10px;
+}
+span{
+    padding: 10px;
+}
+button{
+    background-color: #f2f2f2;
+    color: #5F6368;
+    font-size: 14px;
+    height: 36px;
+    padding: 0 16px;
+    background-image: linear-gradient(top, #f5f5f5, #f1f1f1);
+    border: 1px solid transparent;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
+    color: #222;
+}
+button:hover{
+    background-image: linear-gradient(top, #f8f8f8, #f1f1f1);
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #222;
+    cursor: pointer;
+}
